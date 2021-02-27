@@ -8,12 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		C2014A6F25EA4E86000679F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2014A6E25EA4E86000679F5 /* AppDelegate.swift */; };
-		C2014A7125EA4E86000679F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2014A7025EA4E86000679F5 /* SceneDelegate.swift */; };
 		C2014A7325EA4E86000679F5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2014A7225EA4E86000679F5 /* HomeViewController.swift */; };
 		C2014A7625EA4E86000679F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2014A7425EA4E86000679F5 /* Main.storyboard */; };
 		C2014A7825EA4E86000679F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2014A7725EA4E86000679F5 /* Assets.xcassets */; };
 		C2014A7B25EA4E86000679F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2014A7925EA4E86000679F5 /* LaunchScreen.storyboard */; };
-		C2014A8625EA4E86000679F5 /* Smart_InvestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2014A8525EA4E86000679F5 /* Smart_InvestingTests.swift */; };
 		C2014A9125EA4E86000679F5 /* Smart_InvestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2014A9025EA4E86000679F5 /* Smart_InvestingUITests.swift */; };
 		C2014AA225EA508F000679F5 /* achievements.json in Resources */ = {isa = PBXBuildFile; fileRef = C2014AA125EA508F000679F5 /* achievements.json */; };
 		C2014AC425EA5388000679F5 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2014AC325EA5388000679F5 /* AppConstants.swift */; };
@@ -48,14 +46,12 @@
 /* Begin PBXFileReference section */
 		C2014A6B25EA4E86000679F5 /* Smart Investing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Investing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2014A6E25EA4E86000679F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C2014A7025EA4E86000679F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C2014A7225EA4E86000679F5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C2014A7525EA4E86000679F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2014A7725EA4E86000679F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2014A7A25EA4E86000679F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2014A7C25EA4E86000679F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2014A8125EA4E86000679F5 /* Smart InvestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart InvestingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2014A8525EA4E86000679F5 /* Smart_InvestingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_InvestingTests.swift; sourceTree = "<group>"; };
 		C2014A8725EA4E86000679F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2014A8C25EA4E86000679F5 /* Smart InvestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart InvestingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2014A9025EA4E86000679F5 /* Smart_InvestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_InvestingUITests.swift; sourceTree = "<group>"; };
@@ -133,7 +129,6 @@
 			children = (
 				C2014ABF25EA511D000679F5 /* Tests */,
 				C2014ABE25EA5115000679F5 /* Test_Utilities */,
-				C2014A8525EA4E86000679F5 /* Smart_InvestingTests.swift */,
 				C2014A8725EA4E86000679F5 /* Info.plist */,
 			);
 			path = "Smart InvestingTests";
@@ -220,7 +215,6 @@
 			isa = PBXGroup;
 			children = (
 				C2014A6E25EA4E86000679F5 /* AppDelegate.swift */,
-				C2014A7025EA4E86000679F5 /* SceneDelegate.swift */,
 				C2014ACC25EA54C8000679F5 /* Debug */,
 				C2014AC225EA5144000679F5 /* Constants */,
 				C2014ABD25EA5103000679F5 /* DataPersistence */,
@@ -474,7 +468,6 @@
 				C2014ADE25EA5E98000679F5 /* DataSyncManager.swift in Sources */,
 				C2014AD825EA597D000679F5 /* FileDataUtility.swift in Sources */,
 				C2014A6F25EA4E86000679F5 /* AppDelegate.swift in Sources */,
-				C2014A7125EA4E86000679F5 /* SceneDelegate.swift in Sources */,
 				C2014AC425EA5388000679F5 /* AppConstants.swift in Sources */,
 				C2014AE325EA5EC1000679F5 /* NetworkDataUtility.swift in Sources */,
 				C2014AD925EA597D000679F5 /* FileURLGenerator.swift in Sources */,
@@ -486,7 +479,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2014AFA25EA67B4000679F5 /* FileURLGeneratorTests.swift in Sources */,
-				C2014A8625EA4E86000679F5 /* Smart_InvestingTests.swift in Sources */,
 				C2014B0225EA67C2000679F5 /* FileDataUtilityTests.swift in Sources */,
 				C2014AF325EA676D000679F5 /* NetworkMockUtility.swift in Sources */,
 			);
