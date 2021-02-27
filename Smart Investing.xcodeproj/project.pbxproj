@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2014A6F25EA4E86000679F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2014A6E25EA4E86000679F5 /* AppDelegate.swift */; };
+		C2014A7125EA4E86000679F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2014A7025EA4E86000679F5 /* SceneDelegate.swift */; };
+		C2014A7325EA4E86000679F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2014A7225EA4E86000679F5 /* ViewController.swift */; };
+		C2014A7625EA4E86000679F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2014A7425EA4E86000679F5 /* Main.storyboard */; };
+		C2014A7825EA4E86000679F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2014A7725EA4E86000679F5 /* Assets.xcassets */; };
+		C2014A7B25EA4E86000679F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2014A7925EA4E86000679F5 /* LaunchScreen.storyboard */; };
+		C2014A8625EA4E86000679F5 /* Smart_InvestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2014A8525EA4E86000679F5 /* Smart_InvestingTests.swift */; };
+		C2014A9125EA4E86000679F5 /* Smart_InvestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2014A9025EA4E86000679F5 /* Smart_InvestingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2014A8225EA4E86000679F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2014A6325EA4E85000679F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2014A6A25EA4E85000679F5;
+			remoteInfo = "Smart Investing";
+		};
+		C2014A8D25EA4E86000679F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2014A6325EA4E85000679F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2014A6A25EA4E85000679F5;
+			remoteInfo = "Smart Investing";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2014A6B25EA4E86000679F5 /* Smart Investing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Investing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2014A6E25EA4E86000679F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2014A7025EA4E86000679F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C2014A7225EA4E86000679F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2014A7525EA4E86000679F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2014A7725EA4E86000679F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2014A7A25EA4E86000679F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2014A7C25EA4E86000679F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2014A8125EA4E86000679F5 /* Smart InvestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart InvestingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2014A8525EA4E86000679F5 /* Smart_InvestingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_InvestingTests.swift; sourceTree = "<group>"; };
+		C2014A8725EA4E86000679F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2014A8C25EA4E86000679F5 /* Smart InvestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart InvestingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2014A9025EA4E86000679F5 /* Smart_InvestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_InvestingUITests.swift; sourceTree = "<group>"; };
+		C2014A9225EA4E86000679F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2014A6825EA4E85000679F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2014A7E25EA4E86000679F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2014A8925EA4E86000679F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2014A6225EA4E85000679F5 = {
+			isa = PBXGroup;
+			children = (
+				C2014A6D25EA4E86000679F5 /* Smart Investing */,
+				C2014A8425EA4E86000679F5 /* Smart InvestingTests */,
+				C2014A8F25EA4E86000679F5 /* Smart InvestingUITests */,
+				C2014A6C25EA4E86000679F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2014A6C25EA4E86000679F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2014A6B25EA4E86000679F5 /* Smart Investing.app */,
+				C2014A8125EA4E86000679F5 /* Smart InvestingTests.xctest */,
+				C2014A8C25EA4E86000679F5 /* Smart InvestingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2014A6D25EA4E86000679F5 /* Smart Investing */ = {
+			isa = PBXGroup;
+			children = (
+				C2014A6E25EA4E86000679F5 /* AppDelegate.swift */,
+				C2014A7025EA4E86000679F5 /* SceneDelegate.swift */,
+				C2014A7225EA4E86000679F5 /* ViewController.swift */,
+				C2014A7425EA4E86000679F5 /* Main.storyboard */,
+				C2014A7725EA4E86000679F5 /* Assets.xcassets */,
+				C2014A7925EA4E86000679F5 /* LaunchScreen.storyboard */,
+				C2014A7C25EA4E86000679F5 /* Info.plist */,
+			);
+			path = "Smart Investing";
+			sourceTree = "<group>";
+		};
+		C2014A8425EA4E86000679F5 /* Smart InvestingTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2014A8525EA4E86000679F5 /* Smart_InvestingTests.swift */,
+				C2014A8725EA4E86000679F5 /* Info.plist */,
+			);
+			path = "Smart InvestingTests";
+			sourceTree = "<group>";
+		};
+		C2014A8F25EA4E86000679F5 /* Smart InvestingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2014A9025EA4E86000679F5 /* Smart_InvestingUITests.swift */,
+				C2014A9225EA4E86000679F5 /* Info.plist */,
+			);
+			path = "Smart InvestingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2014A6A25EA4E85000679F5 /* Smart Investing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2014A9525EA4E86000679F5 /* Build configuration list for PBXNativeTarget "Smart Investing" */;
+			buildPhases = (
+				C2014A6725EA4E85000679F5 /* Sources */,
+				C2014A6825EA4E85000679F5 /* Frameworks */,
+				C2014A6925EA4E85000679F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smart Investing";
+			productName = "Smart Investing";
+			productReference = C2014A6B25EA4E86000679F5 /* Smart Investing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2014A8025EA4E86000679F5 /* Smart InvestingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2014A9825EA4E86000679F5 /* Build configuration list for PBXNativeTarget "Smart InvestingTests" */;
+			buildPhases = (
+				C2014A7D25EA4E86000679F5 /* Sources */,
+				C2014A7E25EA4E86000679F5 /* Frameworks */,
+				C2014A7F25EA4E86000679F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2014A8325EA4E86000679F5 /* PBXTargetDependency */,
+			);
+			name = "Smart InvestingTests";
+			productName = "Smart InvestingTests";
+			productReference = C2014A8125EA4E86000679F5 /* Smart InvestingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2014A8B25EA4E86000679F5 /* Smart InvestingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2014A9B25EA4E86000679F5 /* Build configuration list for PBXNativeTarget "Smart InvestingUITests" */;
+			buildPhases = (
+				C2014A8825EA4E86000679F5 /* Sources */,
+				C2014A8925EA4E86000679F5 /* Frameworks */,
+				C2014A8A25EA4E86000679F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2014A8E25EA4E86000679F5 /* PBXTargetDependency */,
+			);
+			name = "Smart InvestingUITests";
+			productName = "Smart InvestingUITests";
+			productReference = C2014A8C25EA4E86000679F5 /* Smart InvestingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2014A6325EA4E85000679F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C2014A6A25EA4E85000679F5 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					C2014A8025EA4E86000679F5 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C2014A6A25EA4E85000679F5;
+					};
+					C2014A8B25EA4E86000679F5 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C2014A6A25EA4E85000679F5;
+					};
+				};
+			};
+			buildConfigurationList = C2014A6625EA4E85000679F5 /* Build configuration list for PBXProject "Smart Investing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2014A6225EA4E85000679F5;
+			productRefGroup = C2014A6C25EA4E86000679F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2014A6A25EA4E85000679F5 /* Smart Investing */,
+				C2014A8025EA4E86000679F5 /* Smart InvestingTests */,
+				C2014A8B25EA4E86000679F5 /* Smart InvestingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2014A6925EA4E85000679F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2014A7B25EA4E86000679F5 /* LaunchScreen.storyboard in Resources */,
+				C2014A7825EA4E86000679F5 /* Assets.xcassets in Resources */,
+				C2014A7625EA4E86000679F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2014A7F25EA4E86000679F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2014A8A25EA4E86000679F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2014A6725EA4E85000679F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2014A7325EA4E86000679F5 /* ViewController.swift in Sources */,
+				C2014A6F25EA4E86000679F5 /* AppDelegate.swift in Sources */,
+				C2014A7125EA4E86000679F5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2014A7D25EA4E86000679F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2014A8625EA4E86000679F5 /* Smart_InvestingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2014A8825EA4E86000679F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2014A9125EA4E86000679F5 /* Smart_InvestingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2014A8325EA4E86000679F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2014A6A25EA4E85000679F5 /* Smart Investing */;
+			targetProxy = C2014A8225EA4E86000679F5 /* PBXContainerItemProxy */;
+		};
+		C2014A8E25EA4E86000679F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2014A6A25EA4E85000679F5 /* Smart Investing */;
+			targetProxy = C2014A8D25EA4E86000679F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2014A7425EA4E86000679F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2014A7525EA4E86000679F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2014A7925EA4E86000679F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2014A7A25EA4E86000679F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2014A9325EA4E86000679F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2014A9425EA4E86000679F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2014A9625EA4E86000679F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RSQ3955BR9;
+				INFOPLIST_FILE = "Smart Investing/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manjukiran.Smart-Investing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2014A9725EA4E86000679F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RSQ3955BR9;
+				INFOPLIST_FILE = "Smart Investing/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manjukiran.Smart-Investing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C2014A9925EA4E86000679F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RSQ3955BR9;
+				INFOPLIST_FILE = "Smart InvestingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manjukiran.Smart-InvestingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Investing.app/Smart Investing";
+			};
+			name = Debug;
+		};
+		C2014A9A25EA4E86000679F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RSQ3955BR9;
+				INFOPLIST_FILE = "Smart InvestingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manjukiran.Smart-InvestingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Investing.app/Smart Investing";
+			};
+			name = Release;
+		};
+		C2014A9C25EA4E86000679F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RSQ3955BR9;
+				INFOPLIST_FILE = "Smart InvestingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manjukiran.Smart-InvestingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smart Investing";
+			};
+			name = Debug;
+		};
+		C2014A9D25EA4E86000679F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RSQ3955BR9;
+				INFOPLIST_FILE = "Smart InvestingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manjukiran.Smart-InvestingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smart Investing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2014A6625EA4E85000679F5 /* Build configuration list for PBXProject "Smart Investing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2014A9325EA4E86000679F5 /* Debug */,
+				C2014A9425EA4E86000679F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2014A9525EA4E86000679F5 /* Build configuration list for PBXNativeTarget "Smart Investing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2014A9625EA4E86000679F5 /* Debug */,
+				C2014A9725EA4E86000679F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2014A9825EA4E86000679F5 /* Build configuration list for PBXNativeTarget "Smart InvestingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2014A9925EA4E86000679F5 /* Debug */,
+				C2014A9A25EA4E86000679F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2014A9B25EA4E86000679F5 /* Build configuration list for PBXNativeTarget "Smart InvestingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2014A9C25EA4E86000679F5 /* Debug */,
+				C2014A9D25EA4E86000679F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2014A6325EA4E85000679F5 /* Project object */;
+}
