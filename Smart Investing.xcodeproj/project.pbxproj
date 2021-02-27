@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		C2014A6F25EA4E86000679F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2014A6E25EA4E86000679F5 /* AppDelegate.swift */; };
 		C2014A7125EA4E86000679F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2014A7025EA4E86000679F5 /* SceneDelegate.swift */; };
-		C2014A7325EA4E86000679F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2014A7225EA4E86000679F5 /* ViewController.swift */; };
+		C2014A7325EA4E86000679F5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2014A7225EA4E86000679F5 /* HomeViewController.swift */; };
 		C2014A7625EA4E86000679F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2014A7425EA4E86000679F5 /* Main.storyboard */; };
 		C2014A7825EA4E86000679F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2014A7725EA4E86000679F5 /* Assets.xcassets */; };
 		C2014A7B25EA4E86000679F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2014A7925EA4E86000679F5 /* LaunchScreen.storyboard */; };
 		C2014A8625EA4E86000679F5 /* Smart_InvestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2014A8525EA4E86000679F5 /* Smart_InvestingTests.swift */; };
 		C2014A9125EA4E86000679F5 /* Smart_InvestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2014A9025EA4E86000679F5 /* Smart_InvestingUITests.swift */; };
+		C2014AA225EA508F000679F5 /* achievements.json in Resources */ = {isa = PBXBuildFile; fileRef = C2014AA125EA508F000679F5 /* achievements.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 		C2014A6B25EA4E86000679F5 /* Smart Investing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Investing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2014A6E25EA4E86000679F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2014A7025EA4E86000679F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C2014A7225EA4E86000679F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2014A7225EA4E86000679F5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C2014A7525EA4E86000679F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2014A7725EA4E86000679F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2014A7A25EA4E86000679F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		C2014A8C25EA4E86000679F5 /* Smart InvestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart InvestingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2014A9025EA4E86000679F5 /* Smart_InvestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_InvestingUITests.swift; sourceTree = "<group>"; };
 		C2014A9225EA4E86000679F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2014AA125EA508F000679F5 /* achievements.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = achievements.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +101,9 @@
 		C2014A6D25EA4E86000679F5 /* Smart Investing */ = {
 			isa = PBXGroup;
 			children = (
-				C2014A6E25EA4E86000679F5 /* AppDelegate.swift */,
-				C2014A7025EA4E86000679F5 /* SceneDelegate.swift */,
-				C2014A7225EA4E86000679F5 /* ViewController.swift */,
-				C2014A7425EA4E86000679F5 /* Main.storyboard */,
-				C2014A7725EA4E86000679F5 /* Assets.xcassets */,
-				C2014A7925EA4E86000679F5 /* LaunchScreen.storyboard */,
-				C2014A7C25EA4E86000679F5 /* Info.plist */,
+				C2014AB425EA50CD000679F5 /* Journeys */,
+				C2014AB325EA50C2000679F5 /* Common */,
+				C2014AA625EA5090000679F5 /* Resources */,
 			);
 			path = "Smart Investing";
 			sourceTree = "<group>";
@@ -113,6 +111,8 @@
 		C2014A8425EA4E86000679F5 /* Smart InvestingTests */ = {
 			isa = PBXGroup;
 			children = (
+				C2014ABF25EA511D000679F5 /* Tests */,
+				C2014ABE25EA5115000679F5 /* Test_Utilities */,
 				C2014A8525EA4E86000679F5 /* Smart_InvestingTests.swift */,
 				C2014A8725EA4E86000679F5 /* Info.plist */,
 			);
@@ -122,10 +122,149 @@
 		C2014A8F25EA4E86000679F5 /* Smart InvestingUITests */ = {
 			isa = PBXGroup;
 			children = (
-				C2014A9025EA4E86000679F5 /* Smart_InvestingUITests.swift */,
+				C2014AC125EA512C000679F5 /* Tests */,
 				C2014A9225EA4E86000679F5 /* Info.plist */,
 			);
 			path = "Smart InvestingUITests";
+			sourceTree = "<group>";
+		};
+		C2014AA625EA5090000679F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C2014AB225EA50B4000679F5 /* Storyboards */,
+				C2014A7C25EA4E86000679F5 /* Info.plist */,
+				C2014AB125EA50A1000679F5 /* JSON */,
+				C2014AB025EA509B000679F5 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C2014AB025EA509B000679F5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C2014A7725EA4E86000679F5 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C2014AB125EA50A1000679F5 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				C2014AA125EA508F000679F5 /* achievements.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		C2014AB225EA50B4000679F5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C2014A7925EA4E86000679F5 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C2014AB325EA50C2000679F5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C2014ABA25EA50F7000679F5 /* Utilities */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C2014AB425EA50CD000679F5 /* Journeys */ = {
+			isa = PBXGroup;
+			children = (
+				C2014AB525EA50D0000679F5 /* HomeScreen */,
+			);
+			path = Journeys;
+			sourceTree = "<group>";
+		};
+		C2014AB525EA50D0000679F5 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C2014AB925EA50E7000679F5 /* Storyboard */,
+				C2014A7225EA4E86000679F5 /* HomeViewController.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		C2014AB925EA50E7000679F5 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C2014A7425EA4E86000679F5 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		C2014ABA25EA50F7000679F5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C2014A6E25EA4E86000679F5 /* AppDelegate.swift */,
+				C2014A7025EA4E86000679F5 /* SceneDelegate.swift */,
+				C2014AC225EA5144000679F5 /* Constants */,
+				C2014ABD25EA5103000679F5 /* DataPersistence */,
+				C2014ABC25EA50FF000679F5 /* Network */,
+				C2014ABB25EA50FB000679F5 /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C2014ABB25EA50FB000679F5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C2014ABC25EA50FF000679F5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C2014ABD25EA5103000679F5 /* DataPersistence */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataPersistence;
+			sourceTree = "<group>";
+		};
+		C2014ABE25EA5115000679F5 /* Test_Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Test_Utilities;
+			sourceTree = "<group>";
+		};
+		C2014ABF25EA511D000679F5 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C2014AC025EA511F000679F5 /* Journeys */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		C2014AC025EA511F000679F5 /* Journeys */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Journeys;
+			sourceTree = "<group>";
+		};
+		C2014AC125EA512C000679F5 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C2014A9025EA4E86000679F5 /* Smart_InvestingUITests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		C2014AC225EA5144000679F5 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2014A7B25EA4E86000679F5 /* LaunchScreen.storyboard in Resources */,
+				C2014AA225EA508F000679F5 /* achievements.json in Resources */,
 				C2014A7825EA4E86000679F5 /* Assets.xcassets in Resources */,
 				C2014A7625EA4E86000679F5 /* Main.storyboard in Resources */,
 			);
@@ -258,7 +398,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2014A7325EA4E86000679F5 /* ViewController.swift in Sources */,
+				C2014A7325EA4E86000679F5 /* HomeViewController.swift in Sources */,
 				C2014A6F25EA4E86000679F5 /* AppDelegate.swift in Sources */,
 				C2014A7125EA4E86000679F5 /* SceneDelegate.swift in Sources */,
 			);
