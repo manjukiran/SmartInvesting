@@ -1,9 +1,9 @@
 //
 //  UITextView_Extensions.swift
-//  Cake List
+//  Smart Investing
 //
-//  Created by Manju Kiran on 17/09/2019.
-//  Copyright © 2019 Manju Kiran. All rights reserved.
+//  Created by Manju Kiran on 28/02/2021.
+//  Copyright © 2021 Manju Kiran. All rights reserved.
 //
 
 import UIKit
