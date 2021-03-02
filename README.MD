@@ -44,6 +44,6 @@ If the tests fail to run (due to the missing bundle/resources error), please sel
 5) Extensions - The app uses a number of extensions that enhance the ability of basic Apple classes. These extensions help in reducing code whilst ensuring consistency across the app.
 
 ### App Demo
-<img src="https://github.com/manjukiran/SmartInvesting/blob/feature/TicketRef-Implement-Coach-Feature/SmartInvesting%20Demo.gif" alt="drawing" width="300"/>
+<img src="https://github.com/manjukiran/SmartInvesting/blob/develop/SmartInvesting%20Demo.gif" alt="drawing" width="300"/>
 
 
