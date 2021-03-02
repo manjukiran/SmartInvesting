@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  Smart Investing
+
+  Created by Manju Kiran on 01/03/2021.
+  
+*/
+
+"homescreen_title" = "Intelligentes Investieren";
+"homescreen_primary_button_title" = "Erfolge anzeigen";
+"level_title" = "Niveau";
+"achievements_load_fail_title" = "Hoppla";
+"achievements_load_fail_message" = "Erfolge können nicht geladen werden. Versuchen Sie es erneut.";
+"updating_achievement_list_data_message" = "Liste der Erfolge abrufen";
+"data_fetch_in_progress" = "Auf dem Weg zu unseren Servern ...";
+"no_data_placeholder_message" = "Keine Ergebnisse gefunden. \ N \ nLassen Sie die Aktualisierung erneut versuchen? \ N \ nZu bitte 😅";
+"ok" = "OK";
+"cancel" = "Stornieren";
+"1" = "1";
+"2" = "2";
+"3" = "3";
+"4" = "4";
+"5" = "5";
+"6" = "6";
+"7" = "7";
+"8" = "8";
+"9" = "9";
+"0" = "0";
