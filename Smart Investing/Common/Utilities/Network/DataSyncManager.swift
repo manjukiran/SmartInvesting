@@ -34,11 +34,8 @@ class DataSyncManager {
     /// - Expectation :
     ///   Completion block expects the Data type of the class to be decoded ; this class MUST conform to CODABLE protocols
     ///   This is a SWIFT 5 result block that provides the result (success/failure) along with response (data/error)
-    public func retrieveData<T: Codable>(urlString: String , completion: @escaping genericDataFetchHandler<T>)  {
-        guard let url = URL(string: urlString) else {
-            completion(.failure(.invalidRequest))
-            return
-        }
+    public func retrieveData<T: Codable>(url: URL , completion: @escaping genericDataFetchHandler<T>)  {
+
         self.networkDataUtility.fetchDataWithURL(url: url) { (result) in
             switch result {
             case .success (let data) :
@@ -56,11 +53,8 @@ class DataSyncManager {
     ///   - completion: Completion block that is injected;
     /// - Expectation :
     ///   This is a SWIFT 5 result block that provides the result (success/failure) along with response (image/error)
-    public func retrieveImageData(urlString: String , completion: @escaping imageHandler)  {
-        guard let url = URL(string: urlString) else {
-            completion(.failure(.invalidRequest))
-            return
-        }
+    public func retrieveImageData(url: URL , completion: @escaping imageHandler)  {
+        
         self.networkDataUtility.fetchImageDataWithUrl(url: url) { result in
             completion(result)
         }

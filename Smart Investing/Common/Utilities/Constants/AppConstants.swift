@@ -31,14 +31,17 @@ enum AppConstants {
 /// Individual Endpoints for each URL/File
 enum DataFileNameEndpoint : String {
     
-    static let fileExtension = ".json"
-    
     case achievements = "achievements"
     
     /// Returns the full URL String for the requested endpoint
     func urlString() -> String {
         return AppConstants.baseURL + self.rawValue
     }
+    
+    func fileExtension() -> String{
+        ".json"
+    }
+
     
 }
 

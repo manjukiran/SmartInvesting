@@ -10,8 +10,8 @@ import Foundation
 
 class FileDataUtility {
 
-    func dataFromJSONFile(url: URL) throws -> Data {
-        return try Data(contentsOf: url)
+    func dataFromJSONFile(url: URL) throws -> Data? {
+        return try? Data(contentsOf: url)
     }
     
 }

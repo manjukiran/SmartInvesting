@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  Smart Investing
+
+  Created by Manju Kiran on 01/03/2021.
+  
+*/
+
+"homescreen_title" = "Smart Investing";
+"homescreen_primary_button_title" = "Show Achievements";
+"level_title" = "Level";
+"achievements_load_fail_title" = "Oops";
+"achievements_load_fail_message" = "Unable to load achievements, try again, please?";
+"updating_achievement_list_data_message" = "Fetching list of achievements";
+"data_fetch_in_progress" = "On my way to our servers...";
+"no_data_placeholder_message" = "No results found.\n\nLets try refreshing again?\n\nPretty please 😅";
+"ok" = "OK";
+"cancel" = "Cancel";
+"1" = "1";
+"2" = "2";
+"3" = "3";
+"4" = "4";
+"5" = "5";
+"6" = "6";
+"7" = "7";
+"8" = "8";
+"9" = "9";
+"0" = "0";

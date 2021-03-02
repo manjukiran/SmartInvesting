@@ -21,9 +21,10 @@ class FileURLGeneratorTests: XCTestCase {
     }
 
     func testFileUtilityReturnsValidFileURL() throws {
+        let endpoint = DataFileNameEndpoint.achievements
         XCTAssertNotNil(try? self.fileUtility.fileUrl(for: Bundle.main,
-                                                      fileName: DataFileNameEndpoint.achievements.rawValue,
-                                                      withExtension: DataFileNameEndpoint.fileExtension), "A valid non-nil data endpoint should be returned")
+                                                      fileName: endpoint.urlString(),
+                                                      withExtension: endpoint.fileExtension()), "A valid non-nil data endpoint should be returned")
     }
 
 

@@ -21,9 +21,10 @@ class FileDataUtilityTests: XCTestCase {
     }
 
     func testFileUtilityReturnsValidFileURL() throws {
+        let endpoint = DataFileNameEndpoint.achievements
         guard let url = try? FileURLGenerator().fileUrl(for: Bundle.main,
-                                                   fileName: DataFileNameEndpoint.achievements.rawValue,
-                                                   withExtension: DataFileNameEndpoint.fileExtension) else {
+                                                   fileName: endpoint.rawValue,
+                                                   withExtension: endpoint.fileExtension()) else {
             XCTFail("Unable to construct URL")
             return
         }
